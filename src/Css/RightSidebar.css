@@ -1,0 +1,22 @@
+.RightSidebar {
+  display: grid;
+  padding-right: 10px;
+  grid-template-rows: repeat(4, 60px) 1px 60px;
+  place-items: center;
+  cursor: pointer;
+  border-left: 1px solid lightgray;
+}
+
+.RightSidebar:hover {
+  background-color: #fafafb;
+  box-shadow: 0 3px 2px -2px rgb(0 0 0 10%);
+}
+.RightSidebar > img {
+  object-fit: contain;
+  max-height: 25px;
+  justify-content: center;
+}
+.RightSidebar > hr {
+  width: 20px;
+  color: gray;
+}

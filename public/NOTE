@@ -1,0 +1,56 @@
+STEPS 
+1.Open cyguin terminal and (cd Desktop)
+2. npx create-reac-app gmail-clone   
+3.npm install @material-ui/icons
+4.npm install @material-ui/core
+5.npm install react-router-dom
+ and (import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";) at app.js
+
+6.npm install redux[
+Redux is used mostly for application state management. To summarize it, Redux maintains the state of an entire application in a single immutable state tree (object), which can't be changed directly. When something changes, a new object is created (using actions and reducers).]
+7.create store
+
+8.npm install react-hook-form
+9.npm install react-redux
+10.Go to firebase and create project, setting, project setting,and go down to symbol(</>),from Register app (gmail-clone) and next, coppy and install (npm install -g firebase-tools) and (npm add firebase)
+
+11. create firebase.js and copy(const firebaseConfig = {
+  apiKey: 'AIzaSyDUUqNcadI1fipWW4ATzCYOzcZHpMmWD9U',
+  authDomain: 'clone-c5227.firebaseapp.com',
+  projectId: 'clone-c5227',
+  storageBucket: 'clone-c5227.appspot.com',
+  messagingSenderId: '921766761768',
+  appId: '1:921766761768:web:7a883fda83074a137c2c1d',
+};)
+12.go to click firestore => create database=>click on start in test mode.then firestore is created.
+13.go to authontication button => getstarted => Click and enable Google
+
+13. create userSlice.js on features(for login logout)
+
+
+14. deploy process
+******************
+-firebase login. 
+-firebase init.
+-choose hosting config: that displyed on vs code terminal and space bar
+select  and enter.
+-select use existing project.
+-select your project.
+-change public directory by (build) enter.
+-no github.
+-npm run build.
+-firebase deploy.
+-now you got URL:
+-coppy url check on google and kep it safe............
+
+
+
+
+
+
+
